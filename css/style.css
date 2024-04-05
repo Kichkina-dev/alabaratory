@@ -4,6 +4,9 @@
     --light: #EFF5FF;
     --dark: #000;
 }
+.center{
+    align-content: center;
+}
 
 .fw-medium {
     font-weight: 500 !important;
