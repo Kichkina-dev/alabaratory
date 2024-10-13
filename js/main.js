@@ -1,8 +1,8 @@
 // API URLlari
-const searchApiUrl = "https://147.45.106.35:8000/api/types/search/";
-const analyseApiUrl = "https://147.45.106.35:8000/api/analyses/";
+const searchApiUrl = "http://147.45.106.35:8000/api/types/search/";
+const analyseApiUrl = "http://147.45.106.35:8000/api/analyses/";
 
-if (window.location.protocol === 'http:') {
+if (window.location.protocol === 'https:') {
     window.location.href = window.location.href.replace('http:', 'https:');
 }
 
